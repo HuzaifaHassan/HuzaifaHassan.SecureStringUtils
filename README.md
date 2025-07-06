@@ -19,3 +19,18 @@ A lightweight, production-ready **C# library** for secure string handling: maski
 Add via NuGet:
 ```bash
 dotnet add package HuzaifaHassan.SecureStringUtils
+## 🚀 Usage
+```csharp
+using SecureStringUtils.Masking;
+using SecureStringUtils.Hashing;
+using SecureStringUtils.Comparison;
+
+var maskedCard = "1234567812345678".MaskCreditCard();
+var maskedEmail = "huzaifa@example.com".MaskEmail();
+var hash = "mypassword".ToSha256Hash();
+var isEqual = SecureComparer.SecureEquals("secret1", "secret2");
+```
+
+## ✅ License
+MIT
+*/
