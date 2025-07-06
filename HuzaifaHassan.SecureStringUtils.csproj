@@ -4,6 +4,16 @@
     <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+	  <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+	  <Authors>Huzaifa Hassan</Authors>
+	  <Company>Huzaifa Hassan</Company>
+	  <PackageId>HuzaifaHassan.SecureStringUtils</PackageId>
+	  <Version>1.0.0</Version>
+	  <Description>Lightweight C# library for secure string handling: masking, hashing, and secure comparison.</Description>
+	  <PackageTags>dotnet;security;masking;hashing;nuget</PackageTags>
+	  <PackageLicenseExpression>MIT</PackageLicenseExpression>
+	  <RepositoryUrl>
+		  https://github.com/HuzaifaHassan/HuzaifaHassan.SecureStringUtils</RepositoryUrl>
   </PropertyGroup>
 	
 </Project>
